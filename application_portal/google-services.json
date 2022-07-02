@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "332814387170",
+    "project_id": "por-application",
+    "storage_bucket": "por-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332814387170:android:1953e0f92628a9ee261bbb",
+        "android_client_info": {
+          "package_name": "com.mayank.application_portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332814387170-ipgh6km91g3tbusdbj56rr1fullg9jqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj3y-B3sRfQ1gNN59D5NlsJFJA5HF21vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332814387170-ipgh6km91g3tbusdbj56rr1fullg9jqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
