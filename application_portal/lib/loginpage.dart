@@ -11,7 +11,39 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
   @override
+  final _userfieldcontroller = TextEditingController();
+  final _passwordfieldcontroller = TextEditingController();
+  String usernameInput = '';
+  String passwordInput = '';
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(children: [
+        SizedBox(
+          height: 200,
+          width: 100,
+        ),
+        Text(usernameInput),
+        TextField(
+          controller: _userfieldcontroller,
+          decoration: InputDecoration(
+            hintText: "Username",
+            border: OutlineInputBorder(),
+          ),
+        ),
+        SizedBox(
+          height: 80,
+          width: 100,
+        ),
+        Text(passwordInput),
+        TextField(
+          obscureText: true,
+          controller: _passwordfieldcontroller,
+          decoration: InputDecoration(
+            hintText: "Password",
+            border: OutlineInputBorder(),
+          ),
+        ),
+      ]),
+    );
   }
 }
